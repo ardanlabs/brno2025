@@ -2,6 +2,12 @@
 SHELL_PATH = /bin/ash
 SHELL = $(if $(wildcard $(SHELL_PATH)),/bin/ash,/bin/bash)
 
+# https://www.ardanlabs.com/blog/2018/08/scheduling-in-go-part1.html
+# https://www.ardanlabs.com/blog/2018/12/garbage-collection-in-go-part1-semantics.html
+
+# https://www.ardanlabs.com/blog/2024/02/kubernetes-cpu-limits-go.html
+# https://www.ardanlabs.com/blog/2024/02/kubernetes-memory-limits-go.html
+
 # ==============================================================================
 
 run:
